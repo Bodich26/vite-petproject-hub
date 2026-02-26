@@ -1,4 +1,4 @@
-import { PageWidget } from "../widgets/PageWidget";
+import { PageWidget } from "../widgets";
 
 export default function Todos() {
   return (
