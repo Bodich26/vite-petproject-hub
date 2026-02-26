@@ -2,12 +2,9 @@ import { ProjectsWidget, SkillsWidget } from "./widgets";
 
 export default function Home() {
   return (
-    <div className="relative flex flex-col items-center px-8 py-16 space-y-24">
-      {/* Subtle background gradient only */}
+    <div className="relative flex flex-col items-center py-16 space-y-24">
       <div className="absolute inset-0 bg-gradient-to-br from-black to-purple-950/10" />
-
-      <div className="relative max-w-5xl mx-auto w-full space-y-24">
-        {/* About Me Section */}
+      <div className="relative mx-auto w-full space-y-24">
         <section className="space-y-8 text-center">
           <p className="text-lg text-purple-400 font-medium tracking-wide uppercase">
             Front-End ✦ Web Dev
@@ -15,10 +12,9 @@ export default function Home() {
           <h1 className="text-6xl md:text-7xl font-bold tracking-tight text-white uppercase">
             Жуков Богдан
           </h1>
-          {/* Photo placeholder: Circular with border, you can add image */}
           <div className="mx-auto w-48 h-48 md:w-64 md:h-64 overflow-hidden rounded-full border-4 border-purple-700">
             <img
-              src="path/to/your/photo.jpg" // Replace with actual image path
+              src="path/to/your/photo.jpg"
               alt="Богдан Жуков"
               className="w-full h-full object-cover"
             />
@@ -32,13 +28,12 @@ export default function Home() {
             продукта и бизнеса.
           </p>
           <a
-            href="/path/to/your/cv.pdf" // Replace with actual CV download link
+            href="/path/to/your/cv.pdf"
             download
             className="inline-block px-12 py-5 bg-purple-700 hover:bg-purple-600 rounded-lg font-medium uppercase tracking-wide text-lg transition-colors duration-200"
           >
             Скачать CV
           </a>
-          {/* Social icons */}
           <div className="flex justify-center gap-6 text-purple-400 text-2xl">
             <a
               href="https://instagram.com"
@@ -46,8 +41,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="hover:text-purple-300 transition-colors duration-200"
             >
-              <i className="fab fa-instagram" />{" "}
-              {/* Use Font Awesome or similar for icons */}
+              <i className="fab fa-instagram" />
             </a>
             <a
               href="https://github.com"
@@ -65,9 +59,7 @@ export default function Home() {
             </a>
           </div>
         </section>
-
         <SkillsWidget />
-
         <section className="space-y-12">
           <h2 className="text-4xl font-bold text-purple-400 uppercase tracking-wide text-center">
             Образование && Хобби
@@ -84,9 +76,8 @@ export default function Home() {
                 собственные pet-проекты. Такой подход помогает мне постоянно
                 расти и становиться лучше в своём деле.
               </p>
-              {/* Optional: Add education-related image */}
               <img
-                src="path/to/education-image.jpg" // Replace with actual image if you want to add visual (e.g., books or diploma icon)
+                src="path/to/education-image.jpg"
                 alt="Образование"
                 className="w-full h-48 object-cover rounded-lg"
               />
@@ -102,9 +93,8 @@ export default function Home() {
                 исправлял ошибки и внедрял новые функции. Этот опыт научил меня
                 находить решения и доводить идеи до результата.
               </p>
-              {/* Optional: Add experience-related image */}
               <img
-                src="path/to/experience-image.jpg" // Replace with actual image (e.g., code screenshot or project icons)
+                src="path/to/experience-image.jpg"
                 alt="Опыт разработки"
                 className="w-full h-48 object-cover rounded-lg"
               />
@@ -118,9 +108,8 @@ export default function Home() {
                 интересуюсь дизайн-концепциями и интерфейсами, экспериментирую с
                 визуальными решениями и прототипами. Также люблю активный отдых.
               </p>
-              {/* Optional: Add hobbies-related image */}
               <img
-                src="path/to/hobbies-image.jpg" // Replace with actual image (e.g., music instruments or outdoor activity)
+                src="path/to/hobbies-image.jpg"
                 alt="Увлечения"
                 className="w-full h-48 object-cover rounded-lg"
               />

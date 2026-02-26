@@ -11,7 +11,6 @@ export const mySkills: string[] = [
   "Zustand",
   "Tanstack",
   "Next",
-  "Ui-Lib",
   "Tailwind",
   "Figma",
 ];

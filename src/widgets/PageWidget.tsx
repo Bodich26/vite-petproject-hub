@@ -10,7 +10,6 @@ type Props = {
   liveUrl: string;
 };
 
-// PageWidget remains unchanged as it's for individual project pages
 export const PageWidget = ({
   title,
   subtitle,
@@ -24,7 +23,7 @@ export const PageWidget = ({
 }: Props) => {
   return (
     <div className="bg-black text-white font-sans py-16">
-      <section className="max-w-5xl mx-auto px-8 space-y-16">
+      <section className="space-y-16">
         {/* Hero: Compact, centered */}
         <div className="space-y-6 text-center">
           <h1 className="text-5xl md:text-6xl font-bold tracking-tight text-purple-400 uppercase">
