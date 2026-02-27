@@ -1,6 +1,6 @@
 export const AboutWidget = () => {
   return (
-    <section className="mb-[100px] text-center space-y-9">
+    <section className="mb-[100px] text-center space-y-8">
       <p className="text-xl text-purple-400 font-medium tracking-wide uppercase">
         Front-End ✦ Web Dev
       </p>
@@ -11,7 +11,7 @@ export const AboutWidget = () => {
           className="w-full h-full object-cover"
         />
       </div>
-      <h1 className="text-5xl md:text-6xl font-bold tracking-tight text-white uppercase">
+      <h1 className="text-5xl md:text-6xl font-bold tracking-normal text-white uppercase">
         Жуков Богдан
       </h1>
       <p className="text-lg md:text-xl text-neutral-300 leading-relaxed max-w-3xl mx-auto">
@@ -28,30 +28,6 @@ export const AboutWidget = () => {
       >
         Скачать CV
       </a>
-      <div className="flex justify-center gap-6 text-purple-400 text-2xl">
-        <a
-          href="https://instagram.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-purple-300 transition-colors duration-200"
-        >
-          <i className="fab fa-instagram" />
-        </a>
-        <a
-          href="https://github.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-purple-300 transition-colors duration-200"
-        >
-          <i className="fab fa-github" />
-        </a>
-        <a
-          href="mailto:email@example.com"
-          className="hover:text-purple-300 transition-colors duration-200"
-        >
-          <i className="fas fa-envelope" />
-        </a>
-      </div>
     </section>
   );
 };

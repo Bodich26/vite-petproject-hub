@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import { Container } from "../shared";
+import { Container, mySocial } from "../shared";
 
 export const HeaderWidget = () => {
   return (
@@ -10,21 +10,14 @@ export const HeaderWidget = () => {
             to="/"
             className="text-3xl font-bold tracking-tight text-purple-400 hover:text-purple-300 transition-colors duration-200"
           >
-            <img src="/logo.svg" alt="Logo" />
+            <img src="/logo.svg" alt="Logo" width={"130px"} />
           </Link>
-          <nav className="flex gap-8">
-            <Link
-              to="/projects"
-              className="text-lg font-medium text-neutral-400 hover:text-purple-300 transition-colors duration-200"
-            >
-              Projects
-            </Link>
-            <Link
-              to="/about"
-              className="text-lg font-medium text-neutral-400 hover:text-purple-300 transition-colors duration-200"
-            >
-              About
-            </Link>
+          <nav className="flex justify-center gap-5">
+            {mySocial.map((link) => (
+              <a href={link.href} target="_blank">
+                <img className="w-[24px]" src={link.icon} alt={link.name} />
+              </a>
+            ))}
           </nav>
         </div>
       </Container>

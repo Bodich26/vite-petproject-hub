@@ -6,9 +6,9 @@ export const HobbiesWidget = () => {
       <h2 className="text-4xl font-bold text-purple-400 uppercase tracking-wide text-center">
         Образование И Хобби
       </h2>
-      <div className="grid md:grid-cols-3 gap-12">
+      <div className="grid md:grid-cols-3 gap-8">
         {educationAndHobbies.map((item) => (
-          <div className="flex flex-col gap-4" key={item.id}>
+          <div className="flex flex-col gap-4 " key={item.id}>
             <h3 className="text-2xl text-neutral-400 uppercase tracking-wider">
               {item.name}
             </h3>

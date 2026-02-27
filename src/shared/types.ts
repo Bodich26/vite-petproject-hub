@@ -15,3 +15,10 @@ export interface IEducationAndHobbies {
   text: string;
   image: string;
 }
+
+export interface ISocial {
+  id: number;
+  name: string;
+  icon: string;
+  href: string;
+}

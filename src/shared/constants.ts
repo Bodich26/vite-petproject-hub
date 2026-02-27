@@ -1,4 +1,9 @@
-import type { IEducationAndHobbies, IMyProjects, ISkill } from "./types";
+import type {
+  IEducationAndHobbies,
+  IMyProjects,
+  ISkill,
+  ISocial,
+} from "./types";
 
 export const mySkills: ISkill[] = [
   { id: 1, name: "Html5", icon: "/skills/html.svg" },
@@ -19,7 +24,7 @@ export const myProjects: IMyProjects[] = [
   {
     id: 1,
     title: "Lunza",
-    description: "Социальная сеть",
+    description: "Типа социальная сеть с фичами",
     link: "/lunza",
   },
   {
@@ -31,13 +36,13 @@ export const myProjects: IMyProjects[] = [
   {
     id: 3,
     title: "Drivich",
-    description: "Интернет магазин автомобилей Porsche",
+    description: "Перекупы автомобилей Porsche",
     link: "/drivich",
   },
   {
     id: 4,
     title: "Eternal Abyss",
-    description: "Cайт-Бренд музыкльной группы",
+    description: "Cайт музыкльной метал группы",
     link: "/eternal",
   },
   {
@@ -49,7 +54,7 @@ export const myProjects: IMyProjects[] = [
   {
     id: 6,
     title: "Car Musc",
-    description: "Простая вёрстка сайта из 2023 года",
+    description: "Простая вёрстка сайта из 2021",
     link: "/carmusc",
   },
 ];
@@ -64,7 +69,7 @@ export const educationAndHobbies: IEducationAndHobbies[] = [
   {
     id: 2,
     name: "Опыт разработки",
-    text: "За прошлый год я создал несколько pet-проектов — от простой вёрстки до полноценных full-stack приложений. Самостоятельно работал над дизайном, улучшал код и производительность, исправлял ошибки и внедрял новые функции. Этот опыт научил меня находить решения и доводить идеи до результата.",
+    text: "За прошлый год я создал несколько pet-проектов — от простой вёрстки до полноценных full-stack-приложений. Самостоятельно работал над дизайном, улучшал код и производительность, исправлял ошибки и внедрял новые функции. Этот опыт научил меня находить решения и доводить идеи до результата.",
     image: "/2.jpg",
   },
   {
@@ -72,5 +77,26 @@ export const educationAndHobbies: IEducationAndHobbies[] = [
     name: "Увлечения",
     text: "Развиваюсь в веб-разработке и музыке. Несколько лет занимался акустической гитарой, сейчас уже полгода играю на электрогитаре: изучаю рифы, создаю что-то своё. Творческий человек, раньше интересовался дизайном и интерфейсами. Люблю активный отдых и рыбалку.",
     image: "/3.jpg",
+  },
+];
+
+export const mySocial: ISocial[] = [
+  {
+    id: 1,
+    name: "github",
+    icon: "/github.svg",
+    href: "https://github.com/Bodich26",
+  },
+  {
+    id: 2,
+    name: "telegram",
+    icon: "/telegram.svg",
+    href: "https://t.me/bodich12",
+  },
+  {
+    id: 3,
+    name: "Mail",
+    icon: "/mail.svg",
+    href: "mailto:4634815@gmail.com",
   },
 ];
