@@ -3,7 +3,7 @@ import { myProjects } from "../shared";
 
 export const ProjectsWidget = () => {
   return (
-    <section className="space-y-8">
+    <section className="space-y-9">
       <h2 className="text-4xl font-bold text-purple-400 uppercase tracking-wide text-center">
         Проекты
       </h2>
@@ -21,12 +21,6 @@ export const ProjectsWidget = () => {
           </Link>
         ))}
       </div>
-      <a
-        href="/projects"
-        className="inline-block mx-auto px-12 py-5 bg-purple-700 hover:bg-purple-600 rounded-lg font-medium uppercase tracking-wide text-lg transition-colors duration-200"
-      >
-        Посмотреть все проекты
-      </a>
     </section>
   );
 };

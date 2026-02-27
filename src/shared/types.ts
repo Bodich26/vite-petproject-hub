@@ -4,3 +4,14 @@ export interface IMyProjects {
   description: string;
   link: string;
 }
+export interface ISkill {
+  id: number;
+  name: string;
+  icon: string;
+}
+export interface IEducationAndHobbies {
+  id: number;
+  name: string;
+  text: string;
+  image: string;
+}
