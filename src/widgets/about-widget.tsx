@@ -1,3 +1,5 @@
+import { CustomButton } from "../shared";
+
 export const AboutWidget = () => {
   return (
     <section className="mb-[100px] text-center space-y-8">
@@ -21,13 +23,11 @@ export const AboutWidget = () => {
         развиваюсь через самообучение и практику. Ищу команду, в которой смогу
         расти, вносить вклад в развитие продукта и бизнеса.
       </p>
-      <a
+      <CustomButton
+        text={"Скачать CV"}
         href="/docs/Zhukov-Bogdan-Resume.pdf"
         download
-        className="inline-block px-12 py-3.5 bg-purple-700 hover:bg-purple-600 rounded-lg font-medium uppercase tracking-wide text-lg transition-colors duration-200"
-      >
-        Скачать CV
-      </a>
+      />
     </section>
   );
 };
