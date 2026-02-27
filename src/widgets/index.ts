@@ -1,7 +1,7 @@
-export { PageWidget } from "./PageWidget";
-export { SkillsWidget } from "./SkillsWidget";
-export { ProjectsWidget } from "./ProjectsWidget";
-export { HobbiesWidget } from "./HobbiesWidget";
-export { AboutWidget } from "./AboutWidget";
-export { FooterWidget } from "./FooterWidget";
-export { HeaderWidget } from "./HeaderWidget";
+export { PageWidget } from "./page-widget";
+export { SkillsWidget } from "./skills-widget";
+export { ProjectsWidget } from "./projects-widget";
+export { HobbiesWidget } from "./hobbies-widget";
+export { AboutWidget } from "./about-widget";
+export { FooterWidget } from "./footer-widget";
+export { HeaderWidget } from "./header-widget";

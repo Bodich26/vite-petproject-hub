@@ -6,7 +6,7 @@ export const AboutWidget = () => {
       </p>
       <div className="mx-auto w-48 h-48 md:w-64 md:h-64 overflow-hidden rounded-full border-4 border-purple-700">
         <img
-          src="path/to/your/photo.jpg"
+          src="/me.png"
           alt="Богдан Жуков"
           className="w-full h-full object-cover"
         />
@@ -22,7 +22,7 @@ export const AboutWidget = () => {
         расти, вносить вклад в развитие продукта и бизнеса.
       </p>
       <a
-        href="/path/to/your/cv.pdf"
+        href="/docs/Zhukov-Bogdan-Resume.pdf"
         download
         className="inline-block px-12 py-3.5 bg-purple-700 hover:bg-purple-600 rounded-lg font-medium uppercase tracking-wide text-lg transition-colors duration-200"
       >
