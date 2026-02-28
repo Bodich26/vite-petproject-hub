@@ -2,11 +2,11 @@ import { createBrowserRouter } from "react-router";
 import App from "./App";
 import MainLayout from "./main-layout";
 import CarMusc from "./pages/car-musc";
-import Lunza from "./pages/Lunza";
-import Nikey from "./pages/Nikey";
-import Drivich from "./pages/Drivich";
-import Eternal from "./pages/Eternal";
-import Todos from "./pages/Todos";
+import Lunza from "./pages/lunza";
+import Nikey from "./pages/nikey";
+import Drivich from "./pages/drivich";
+import Eternal from "./pages/eternal";
+import Todos from "./pages/todos";
 
 export const router = createBrowserRouter([
   {

@@ -1,13 +1,13 @@
-import { myProjects, ProjectItem } from "../shared";
+import { myMiniProjects, ProjectItem } from "../shared";
 
 export const ProjectsWidget = () => {
   return (
     <section className="space-y-9">
-      <h2 className="text-4xl font-bold text-purple-400 uppercase tracking-wide text-center">
+      <h3 className="text-4xl font-bold text-purple-400 uppercase tracking-wide text-center">
         Проекты
-      </h2>
+      </h3>
       <div className="grid md:grid-cols-3 gap-8">
-        {myProjects.map((project) => (
+        {myMiniProjects.map((project) => (
           <ProjectItem
             key={project.id}
             id={project.id}

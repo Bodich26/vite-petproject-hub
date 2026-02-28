@@ -13,7 +13,7 @@ export const AboutWidget = () => {
           className="w-full h-full object-cover"
         />
       </div>
-      <h1 className="text-5xl md:text-6xl font-bold tracking-normal text-white uppercase">
+      <h1 className="text-5xl md:text-6xl font-bold tracking-wide text-white uppercase">
         Жуков Богдан
       </h1>
       <p className="text-lg md:text-xl text-neutral-300 leading-relaxed max-w-3xl mx-auto">

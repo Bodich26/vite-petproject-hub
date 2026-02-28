@@ -1,17 +1,7 @@
 import { PageWidget } from "../widgets";
+import { myFullProjects } from "../shared/constants";
 
 export default function Lunza() {
-  return (
-    <PageWidget
-      title={"Lunza"}
-      description={"Социальная сеть"}
-      idea={
-        "Идея проекта в том что бы реализзовать социальную сеть, по типу Instagram и Pinterest, где пользователи могли бы, общаться, постить, и реализовываться с своем творчетве."
-      }
-      implementation={"2"}
-      frontend={["Next"]}
-      backend={["Supabase"]}
-      liveUrl={"11"}
-    />
-  );
+  const { ...lunza } = myFullProjects[0];
+  return <PageWidget {...lunza} />;
 }

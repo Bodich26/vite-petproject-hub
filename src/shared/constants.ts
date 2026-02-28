@@ -1,6 +1,7 @@
 import type {
   IEducationAndHobbies,
-  IMyProjects,
+  IMyFullProjects,
+  IMyMiniProjects,
   ISkill,
   ISocial,
 } from "./types";
@@ -20,7 +21,7 @@ export const mySkills: ISkill[] = [
   { id: 12, name: "Figma", icon: "/skills/figma.svg" },
 ];
 
-export const myProjects: IMyProjects[] = [
+export const myMiniProjects: IMyMiniProjects[] = [
   {
     id: 1,
     title: "Lunza",
@@ -98,5 +99,80 @@ export const mySocial: ISocial[] = [
     name: "Mail",
     icon: "/mail.svg",
     href: "mailto:4634815@gmail.com",
+  },
+];
+
+export const myFullProjects: IMyFullProjects[] = [
+  {
+    id: 1,
+    title: "Lunza",
+    subtitle: "Типа социальная сеть с фичами",
+    idea: "fff",
+    implementation: "fff",
+    frontend: ["fff", "ffff"],
+    backend: ["fff", "ffff"],
+    githubUrl: "/lunza",
+    liveUrl: "/lunza",
+    screenshots: ["fff", "ffff"],
+  },
+  {
+    id: 2,
+    title: "Nikey",
+    subtitle: "Интернет магазин кроссовок",
+    idea: "fff",
+    implementation: "fff",
+    frontend: ["fff", "ffff"],
+    backend: ["fff", "ffff"],
+    githubUrl: "/nikey",
+    liveUrl: "/nikey",
+    screenshots: ["fff", "ffff"],
+  },
+  {
+    id: 3,
+    title: "Drivich",
+    subtitle: "Перекупы автомобилей Porsche",
+    idea: "fff",
+    implementation: "fff",
+    frontend: ["fff", "ffff"],
+    backend: ["fff", "ffff"],
+    githubUrl: "/drivich",
+    liveUrl: "/drivich",
+    screenshots: ["fff", "ffff"],
+  },
+  {
+    id: 4,
+    title: "Eternal Abyss",
+    subtitle: "Cайт музыкльной метал группы",
+    idea: "fff",
+    implementation: "fff",
+    frontend: ["fff", "ffff"],
+    backend: ["fff", "ffff"],
+    githubUrl: "/eternal",
+    liveUrl: "/eternal",
+    screenshots: ["fff", "ffff"],
+  },
+  {
+    id: 5,
+    title: "Todos",
+    subtitle: "Красивая Todo c анимашкой",
+    idea: "fff",
+    implementation: "fff",
+    frontend: ["fff", "ffff"],
+    backend: ["fff", "ffff"],
+    githubUrl: "/todos",
+    liveUrl: "/todos",
+    screenshots: ["fff", "ffff"],
+  },
+  {
+    id: 6,
+    title: "Car Musc",
+    subtitle: "Простая вёрстка сайта из 2021",
+    idea: "fff",
+    implementation: "fff",
+    frontend: ["fff", "ffff"],
+    backend: ["fff", "ffff"],
+    githubUrl: "/carmusc",
+    liveUrl: "/carmusc",
+    screenshots: ["fff", "ffff"],
   },
 ];

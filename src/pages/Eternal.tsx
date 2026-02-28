@@ -1,14 +1,7 @@
+import { myFullProjects } from "../shared";
 import { PageWidget } from "../widgets";
 
 export default function Eternal() {
-  return (
-    <PageWidget
-      title={"2"}
-      description={"2"}
-      idea={"2"}
-      implementation={"2"}
-      frontend={["2"]}
-      liveUrl={"11"}
-    />
-  );
+  const { ...eternal } = myFullProjects[3];
+  return <PageWidget {...eternal} />;
 }

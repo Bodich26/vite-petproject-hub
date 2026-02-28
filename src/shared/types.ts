@@ -1,4 +1,4 @@
-export interface IMyProjects {
+export interface IMyMiniProjects {
   id: number;
   title: string;
   description: string;
@@ -21,4 +21,17 @@ export interface ISocial {
   name: string;
   icon: string;
   href: string;
+}
+
+export interface IMyFullProjects {
+  id: number;
+  title: string;
+  subtitle: string;
+  idea: string;
+  implementation: string;
+  frontend: string[];
+  backend: string[];
+  liveUrl: string;
+  githubUrl: string;
+  screenshots: string[];
 }
