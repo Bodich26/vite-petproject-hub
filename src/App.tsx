@@ -10,8 +10,8 @@ export default function Home() {
     <>
       <AboutWidget />
       <SkillsWidget />
-      <HobbiesWidget />
       <ProjectsWidget />
+      <HobbiesWidget />
     </>
   );
 }

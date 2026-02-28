@@ -2,7 +2,7 @@ import { educationAndHobbies, HobbiesItem } from "../shared";
 
 export const HobbiesWidget = () => {
   return (
-    <section className="mb-[100px] space-y-9">
+    <section className=" space-y-9">
       <h3 className="text-4xl font-bold text-purple-400 uppercase tracking-wide text-center">
         Образование И Хобби
       </h3>

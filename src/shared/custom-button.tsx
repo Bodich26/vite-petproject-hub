@@ -11,7 +11,7 @@ export const CustomButton = (props: ButtonProps) => {
   return (
     <a
       {...anchorProps}
-      className={`inline-block px-12 py-3.5 bg-purple-700 hover:bg-purple-600 rounded-lg font-medium uppercase tracking-wide text-lg transition-colors duration-200 ${className}`}
+      className={`text-center inline-block px-12 py-3.5 bg-purple-700 hover:bg-purple-600 rounded-lg font-medium uppercase tracking-wide text-lg transition-colors duration-200 ${className}`}
     >
       {text}
     </a>
