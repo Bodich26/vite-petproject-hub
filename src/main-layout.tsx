@@ -5,7 +5,7 @@ import { HeaderWidget } from "./widgets";
 
 const MainLayout = () => {
   return (
-    <div className="bg-black text-white min-h-screen relative">
+    <div className=" bg-gradient-to-br from-zinc-900 via-black to-zinc-900 text-white min-h-screen relative">
       <HeaderWidget />
       <main className="relative z-10">
         <Container className="relative flex flex-col items-center py-16 space-y-24">

@@ -50,7 +50,7 @@ export const PageWidget = ({
                 <img
                   src={src}
                   alt={`${title} screenshot ${index + 1}`}
-                  className="w-full h-auto object-cover"
+                  className="w-full h-auto object-cover min-h-[190px]"
                 />
               </div>
             ))}
