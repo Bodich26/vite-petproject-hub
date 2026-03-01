@@ -7,7 +7,7 @@ export const HeaderWidget = () => {
       <Container>
         <div className="mx-auto py-2 flex justify-between items-center">
           <Link to="/">
-            <img src="/logo.svg" alt="Logo" width={"130px"} />
+            <img src="logo.svg" alt="Logo" width={"130px"} />
           </Link>
           <nav className="flex justify-center gap-5">
             {mySocial.map((link) => (

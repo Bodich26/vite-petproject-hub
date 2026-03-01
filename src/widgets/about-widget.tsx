@@ -8,7 +8,7 @@ export const AboutWidget = () => {
       </p>
       <div className="mx-auto w-48 h-48 md:w-64 md:h-64 overflow-hidden rounded-full border-4 border-purple-700">
         <img
-          src="/me.png"
+          src="me.png"
           alt="Богдан Жуков"
           className="w-full h-full object-cover"
         />
@@ -25,7 +25,7 @@ export const AboutWidget = () => {
       </p>
       <CustomButton
         text={"Скачать CV"}
-        href="/docs/Zhukov-Bogdan-Resume.pdf"
+        href="docs/Zhukov-Bogdan-Resume.pdf"
         download
       />
     </section>
