@@ -35,3 +35,11 @@ export interface IMyFullProjects {
   githubUrl: string;
   screenshots: string[];
 }
+
+export type ExperienceItemProps = {
+  title: string;
+  company: string;
+  period: string;
+  description: string;
+  image: string;
+};

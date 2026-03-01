@@ -12,7 +12,7 @@ export const PageWidget = ({
   screenshots,
 }: IMyFullProjects) => {
   return (
-    <section className="mb-[100px] space-y-9 w-full">
+    <section className="space-y-9 w-full">
       <div className="flex justify-between gap-8 items-center max-md:flex-wrap">
         <div className="space-y-6 min-w-[35%] max-md:min-w-full max-md:text-center">
           <h1 className="text-5xl sm:text-6xl font-bold tracking-wide text-purple-400 uppercase">

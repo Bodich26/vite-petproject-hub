@@ -5,3 +5,4 @@ export { HobbiesWidget } from "./hobbies-widget";
 export { AboutWidget } from "./about-widget";
 export { FooterWidget } from "./footer-widget";
 export { HeaderWidget } from "./header-widget";
+export { ExperienceWidget } from "./experience-widget";

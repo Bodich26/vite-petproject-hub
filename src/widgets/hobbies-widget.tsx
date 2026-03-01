@@ -3,7 +3,7 @@ import { educationAndHobbies, HobbiesItem } from "../shared";
 export const HobbiesWidget = () => {
   return (
     <section className=" space-y-9">
-      <h3 className="text-4xl font-bold text-purple-400 uppercase tracking-wide text-center">
+      <h3 className="text-4xl max-sm:text-3xl font-bold text-purple-400 uppercase tracking-wide text-center">
         Образование И Хобби
       </h3>
       <div className="grid md:grid-cols-3 gap-8">

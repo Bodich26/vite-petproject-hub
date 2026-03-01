@@ -2,7 +2,7 @@ import { CustomButton } from "../shared";
 
 export const AboutWidget = () => {
   return (
-    <section className="mb-[100px] text-center space-y-8">
+    <section className="mb-[100px] text-center space-y-8 w-full">
       <p className="text-xl text-purple-400 font-medium tracking-wide uppercase">
         Front-End ✦ Web Dev
       </p>

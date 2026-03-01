@@ -3,6 +3,7 @@ import {
   HobbiesWidget,
   ProjectsWidget,
   SkillsWidget,
+  ExperienceWidget,
 } from "./widgets";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <AboutWidget />
       <SkillsWidget />
       <ProjectsWidget />
+      <ExperienceWidget />
       <HobbiesWidget />
     </>
   );

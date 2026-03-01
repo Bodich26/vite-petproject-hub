@@ -6,3 +6,4 @@ export { HobbiesItem } from "./hobbies-item";
 export { ProjectItem } from "./project-item";
 export { CustomButton } from "./custom-button";
 export { TechItem } from "./tech-item";
+export { ExperienceItem } from "./experience-item";
