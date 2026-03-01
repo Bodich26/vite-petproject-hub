@@ -12,5 +12,5 @@ export default defineConfig({
     }),
     tailwindcss(),
   ],
-  base: "/vite-petproject-hub/",
+  base: "/vite-petproject-hub",
 });
