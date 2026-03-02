@@ -8,7 +8,7 @@ import Drivich from "./pages/drivich";
 import Eternal from "./pages/eternal";
 import Todos from "./pages/todos";
 
-const basename = "/vite-petproject-hub/";
+const basename = "/portfolio-resume/";
 
 export const router = createBrowserRouter(
   [
