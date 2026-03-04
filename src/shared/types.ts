@@ -9,11 +9,17 @@ export interface ISkill {
   name: string;
   icon: string;
 }
+
+export interface Certificates {
+  name: string;
+  link: string;
+}
 export interface IEducationAndHobbies {
   id: number;
   name: string;
   text: string;
   image: string;
+  certificates?: Certificates[];
 }
 
 export interface ISocial {

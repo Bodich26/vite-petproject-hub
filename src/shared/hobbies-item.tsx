@@ -10,6 +10,28 @@ export const HobbiesItem = (hobbies: IEducationAndHobbies) => {
         {hobbies.text}
       </p>
 
+      {hobbies.certificates && (
+        <div className="">
+          <p className="text-lg text-neutral-300 leading-relaxed">
+            Cертификаты:
+          </p>
+          <ul className="flex gap-4 text-md text-purple-400">
+            {hobbies.certificates.map((cert, index) => (
+              <li key={index}>
+                <a
+                  href={cert.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline transition"
+                >
+                  {cert.name}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
       <div className="relative mt-3">
         <img
           src={hobbies.image}

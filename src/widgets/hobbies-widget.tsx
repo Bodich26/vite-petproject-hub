@@ -14,6 +14,7 @@ export const HobbiesWidget = () => {
             name={item.name}
             text={item.text}
             image={item.image}
+            certificates={item.certificates}
           />
         ))}
       </div>
