@@ -36,7 +36,7 @@ export const myMiniProjects: IMyMiniProjects[] = [
   },
   {
     id: 3,
-    title: "Drivich",
+    title: "Drivich-V2",
     description: "Перекупы автомобилей Porsche",
     link: "/drivich",
   },
