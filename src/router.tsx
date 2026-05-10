@@ -19,7 +19,7 @@ export const router = createBrowserRouter(
         { index: true, element: <App /> },
         { path: "lunza", element: <Lunza /> },
         { path: "nikey", element: <Nikey /> },
-        { path: "drivich", element: <Drivich /> },
+        { path: "drivich-v2", element: <Drivich /> },
         { path: "eternal", element: <Eternal /> },
         { path: "todos", element: <Todos /> },
         { path: "carmusc", element: <CarMusc /> },
